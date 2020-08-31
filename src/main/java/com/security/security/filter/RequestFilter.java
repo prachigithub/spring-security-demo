@@ -30,8 +30,8 @@ public class RequestFilter extends OncePerRequestFilter {
 
 		String authHeaderValue = "{\n" +
 				"\"entitlements\": [\n" +
-				"\t\"pmview\",\n" +
-				"\t\"completesvc\"\n" +
+				"\t\"permission1\",\n" +
+				"\t\"permission2\"\n" +
 				"]\n" +
 				"}";
 //		String authHeaderValue=request.getHeader("x-cat-entitlement");
